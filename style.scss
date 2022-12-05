@@ -40,6 +40,9 @@ body {
     padding: 0;
     font-size: $body-font-size;
     background-color: $color_primary-cream;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
 }
 
 h1,h2,h3,h4,p,a{
@@ -54,9 +57,10 @@ a {
 
 //custom elements
 .wrapper {
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
+    // margin-top: 5rem;
+    // display: flex;
+    // justify-content: center;
+
 
     .grid-container {
         width: 320px;
